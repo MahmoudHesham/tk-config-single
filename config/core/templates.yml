@@ -223,13 +223,13 @@ paths:
     shot_publish_area_max: '@shot_root/publish/3dsmax'
 
     # The location of WIP files
-    max_shot_work: '@shot_root/work/3dsmax/{name}.v{version}.max'
+    max_shot_work: '@shot_root/work/3dsmax/{Shot}.{task_name}.v{version}.max'
 
     # The location of backups of WIP files
-    max_shot_snapshot: '@shot_root/work/3dsmax/snapshots/{name}.v{version}.{timestamp}.max'
+    max_shot_snapshot: '@shot_root/work/3dsmax/snapshots/{Shot}.{task_name}.v{version}.{timestamp}.max'
 
-    # The location of published maya files
-    max_shot_publish: '@shot_root/publish/3dsmax/{name}.v{version}.max'
+    # The location of published 3dsmax files
+    max_shot_publish: '@shot_root/publish/3dsmax/{Shot}.{task_name}.v{version}.max'
 
 
     #
@@ -351,13 +351,13 @@ paths:
     asset_publish_area_maya: '@asset_root/publish/maya'
 
     # The location of WIP files
-    maya_asset_work: '@asset_root/work/maya/{name}.v{version}.ma'
+    maya_asset_work: '@asset_root/work/maya/{Asset}.{task_name}.v{version}.ma'
 
     # The location of backups of WIP files
-    maya_asset_snapshot: '@asset_root/work/maya/snapshots/{name}.v{version}.{timestamp}.ma'
+    maya_asset_snapshot: '@asset_root/work/maya/snapshots/{Asset}.{task_name}.v{version}.{timestamp}.ma'
 
     # The location of published maya files
-    maya_asset_publish: '@asset_root/publish/maya/{name}.v{version}.ma'
+    maya_asset_publish: '@asset_root/publish/maya/{Asset}.{task_name}.v{version}.ma'
 
 
     #
@@ -397,13 +397,13 @@ paths:
     asset_publish_area_max: '@asset_root/publish/3dsmax'
     
     # The location of WIP files
-    max_asset_work: '@asset_root/work/3dsmax/{name}.v{version}.max'
+    max_asset_work: '@asset_root/work/3dsmax/{Asset}.{task_name}.v{version}.max'
 
     # The location of backups of WIP files
-    max_asset_snapshot: '@asset_root/work/3dsmax/snapshots/{name}.v{version}.{timestamp}.max'
+    max_asset_snapshot: '@asset_root/work/3dsmax/snapshots/{Asset}.{task_name}.v{version}.{timestamp}.max'
 
-    # The location of published maya files
-    max_asset_publish: '@asset_root/publish/3dsmax/{name}.v{version}.max'
+    # The location of published 3dsmax files
+    max_asset_publish: '@asset_root/publish/3dsmax/{Asset}.{task_name}.v{version}.max'
 
     #
     # Motionbuilder
