@@ -1,0 +1,9 @@
+# Shotgun Pipeline Toolkit configuration file
+# this file was automatically created
+
+host: https://aroma.shotgunstudio.com
+api_script: Toolkit
+api_key: 65e4cc1eb776b5ed1ffc83ccb6356ad2d4c77cd6
+http_proxy: null
+
+# End of file.
