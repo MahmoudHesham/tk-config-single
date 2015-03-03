@@ -177,13 +177,13 @@ paths:
     shot_publish_area_maya: '@shot_root/publish/maya'
 
     # The location of WIP files
-    maya_shot_work: '@shot_root/work/maya/{name}.v{version}.ma'
+    maya_shot_work: '@shot_root/work/maya/{Shot}.{task_name}.v{version}.ma'
 
     # The location of backups of WIP files
-    maya_shot_snapshot: '@shot_root/work/maya/snapshots/{name}.v{version}.{timestamp}.ma'
+    maya_shot_snapshot: '@shot_root/work/maya/snapshots/{Shot}.{task_name}.v{version}.{timestamp}.ma'
 
     # The location of published maya files
-    maya_shot_publish: '@shot_root/publish/maya/{name}.v{version}.ma'
+    maya_shot_publish: '@shot_root/publish/maya/{Shot}.{task_name}.v{version}.ma'
 
 
     #
