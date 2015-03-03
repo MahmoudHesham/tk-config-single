@@ -3,8 +3,8 @@
 # This file reflects the paths in the pipeline configuration
 # entity which is associated with this location (Developing).
 
-Windows: 'C:\Code\shotgun\tk-conf-single'
-Darwin: '/Code/shotgun/tk-conf-single'
-Linux: '/Code/shotgun/tk-conf-single'
+Windows: 'C:\Code\shotgun\tk-config-single'
+Darwin: '/Code/shotgun/tk-config-single'
+Linux: '/Code/shotgun/tk-config-single'
 
 # End of file.
